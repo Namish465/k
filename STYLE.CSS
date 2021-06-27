@@ -1,0 +1,24 @@
+h1{
+    font-family: fantasy;
+   font-size: xx-large;
+}
+
+body{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0;
+    padding-top: 70px;
+}
+
+img{
+width:300 ;
+height:400 ;
+}
+
+h4 {
+    font-size:larger;
+}
+
+button{
+font-size:medium;
+}

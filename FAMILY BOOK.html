@@ -1,0 +1,49 @@
+<html>
+
+        <head>
+       <title>
+        FAMILY BOOK
+       </title>
+       <link rel="stylesheet" type="text/css" href="STYLE.CSS">
+        </head>   
+        <body>
+
+<h1>MY FAMILY BOOK</h1>
+
+            <img src="download (1).jpg" id="member">
+            
+<h4 id="member_names">
+FAMILY BOOK
+</h4>
+
+<button onclick = "update()" ; > Next </button>
+
+<script>
+
+var images = ["download (1).jpg" , "download (2).jpg" , "download.jpg" , "download (3).jpg" , "download.png" ];
+
+var names = ["FAMILY BOOK" , "Govindaraju" , "Sowjanya" , "Namish" , "Yeshasvi"];
+
+var i = 0;
+
+function update() 
+{
+
+i++;
+var family = 4
+if(i>family)
+{
+
+i=0
+
+}
+var updatedImages = images[i]
+var updatedname = names[i]
+document.getElementById("member").src = updatedImages;
+document.getElementById("member_names").innerHTML =updatedname;
+
+}
+
+</script> 
+        </body>
+</html>
